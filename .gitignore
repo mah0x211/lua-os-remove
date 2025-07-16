@@ -1,0 +1,6 @@
+coverage/
+*.gcda
+*.gcno
+*.o
+*.out
+*.info
