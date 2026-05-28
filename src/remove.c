@@ -20,11 +20,14 @@
  *  DEALINGS IN THE SOFTWARE.
  */
 
-#include <errno.h>
-#include <stdio.h>
+// depend
+#include "lua_errno.h"
 // lua
-#include <lua.h>
-#include <lua_errno.h>
+#include <lauxlib.h>
+// system
+#include <errno.h>
+#include <stddef.h>
+#include <stdio.h>
 
 static int remove_lua(lua_State *L)
 {
